@@ -1,8 +1,9 @@
 using System.Text;
 using API.Data;
 using API.Entities;
+using API.Errors;
 using API.Extensions;
-using API.Middleware;
+
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
